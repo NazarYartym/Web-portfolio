@@ -1,0 +1,1094 @@
+
+@media (min-width: 1025px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .header-line {
+        display: flex;
+        justify-content: center;
+        background-color: #f0f5f8;
+    }
+    .header-line-title {
+        margin-top: 5px;
+        width: 95%;
+        text-align: center;
+        border-radius: 50px;
+    }
+    .header-line-title-img {
+        padding-top: 5px;
+        width: 42px;
+        height: auto;
+        padding-bottom: 5px;
+    }
+
+
+
+    .main-about-me {
+        justify-items: center;
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background-color: #f6f9fd;
+    }
+    .main-about-me-section-title-part {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+        max-width: 990px;
+    }
+    .about-me-img {
+        width: 100%;
+        height: 300px;
+        border-radius: 15px 0px 0px 15px;
+    }
+    .main-about-me-section-title {
+        background-color: #f8f9fa;
+        border-radius: 0px 15px 15px 0px;
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    .main-about-me-section-title-inner-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .main-about-me-image {
+        width: 40%;
+        height: 300px;
+    }
+    .main-about-me-section-title {
+        width: 60%;
+        height: 300px;
+    }
+    .main-about-me-section-ttl-1 {
+        font-family: "Open Sans";
+        font-weight: 900;
+        font-size: 30px;
+        text-align: left;
+    }
+    .main-about-me-section-ttl-2 {
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 25px;
+        text-align: left;
+    }
+    .main-about-me-section-title-txt {
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 21px;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+
+    .main-skills-section-ttl {
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 70px;
+        margin-bottom: 30px;
+    }
+    .main-skills-section-buttons-body {
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin-bottom: 110px;
+    }
+    .container {
+        width: 100%;
+        overflow: hidden;
+    }
+    .scroll-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+    .scroll-content {
+        width: max-content;
+        display: flex;
+        animation: scroll 30s linear infinite;
+    }
+    .scroll-content.paused {
+        animation-play-state: paused;
+    }
+    .item {
+        display: inline-block;
+        margin: 7px;
+        padding: 7px 20px;
+        color: #212529;
+        border: 2px solid #212529;
+        border-bottom: 4px solid #212529;
+        border-right: 4px solid #212529;
+        text-align: center;
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    .item:hover {
+        border: 2px solid #212529;
+        margin-right: 9px;
+    }
+    @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(calc(-50% - 7px));
+        }
+    }
+
+
+
+    .main-peojects-section-ttl {
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .main-peojects-body {
+        margin: 0 auto;
+        width: 90%;
+        position: relative;
+        margin-bottom: -110px;
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1070px;
+    }
+    .slider {
+        margin-left: 40px;
+        margin-right: 40px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+    }
+    .slider-wrapper {
+        display: flex;
+        width: 100%;
+        transition: transform 0.5s ease;
+    }
+    .slide {
+        min-width: 100%;
+        box-sizing: border-box;
+        padding: 100px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        text-align: center;
+    }
+    button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        border: none;
+        padding: 15px 15px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    button.prev {
+        left: 0px;
+    }
+    button.next {
+        right: 0px;
+    }
+
+
+
+    .footer-contacts {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
+    .footer-contacts-section {
+        padding-top: 140px;
+        background-color: #f6f9fd;
+        width: 100%;
+        height: 100%;
+    }
+    .footer-contacts-section-title {
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .footer-contacts-section-links-parts {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .footer-contacts-section-links-part-1 {
+        position: relative;
+        right: 40px;
+    }
+    .footer-contacts-section-link-1-btn, .footer-contacts-section-link-2-btn, .footer-contacts-section-link-3-btn, .footer-contacts-section-link-4-btn, .footer-contacts-section-link-5-btn, .footer-contacts-section-link-6-btn {
+        color: #212529;
+        text-decoration: none;
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 35px;
+    }
+    .footer-contacts-section-link-1-btn:hover, .footer-contacts-section-link-2-btn:hover, .footer-contacts-section-link-3-btn:hover, .footer-contacts-section-link-4-btn:hover, .footer-contacts-section-link-5-btn:hover, .footer-contacts-section-link-6-btn:hover {
+        text-decoration: underline;
+    }
+    .footer-contacts-section-trademark-button {
+        padding-bottom: 20px;
+    }
+    .footer-contacts-section-trademark-btn {
+        display: block;
+        text-align: center;
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 16px;
+        text-decoration: none;
+        color: #212529;
+        background-color: #f8f9fa;
+        border: 2px solid #212529;
+        border-bottom: 4px solid #212529;
+        border-right: 4px solid #212529;
+        border-radius: 11px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        width: 355.6px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .footer-contacts-section-trademark-btn:hover {
+        background-color: #f8f9fa;
+        border: 2px solid #212529;
+        margin-bottom: 2px;
+    }
+}
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 1025px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .header-line {
+        display: flex;
+        justify-content: center;
+        background-color: #f0f5f8;
+    }
+    .header-line-title {
+        margin-top: 5px;
+        width: 95%;
+        text-align: center;
+        border-radius: 50px;
+    }
+    .header-line-title-img {
+        padding-top: 5px;
+        width: 42px;
+        height: auto;
+        padding-bottom: 5px;
+    }
+
+
+
+    .main-about-me {
+        justify-items: center;
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background-color: #f6f9fd;
+    }
+    .main-about-me-section-title-part {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .about-me-img {
+        width: 100%;
+        height: 300px;
+        border-radius: 15px 0px 0px 15px;
+    }
+    .main-about-me-section-title {
+        background-color: #f8f9fa;
+        border-radius: 0px 15px 15px 0px;
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    .main-about-me-section-title-inner-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .main-about-me-image, .main-about-me-section-title {
+        width: 50%;
+        height: 300px;
+    }
+    .main-about-me-section-ttl-1 {
+        font-family: "Open Sans";
+        font-weight: 900;
+        font-size: 30px;
+        text-align: left;
+    }
+    .main-about-me-section-ttl-2 {
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 25px;
+        text-align: left;
+    }
+    .main-about-me-section-title-txt {
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 21px;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+
+    .main-skills-section-ttl {
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 70px;
+        margin-bottom: 30px;
+    }
+    .main-skills-section-buttons-body {
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin-bottom: 110px;
+    }
+    .container {
+        width: 100%;
+        overflow: hidden;
+    }
+    .scroll-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+    .scroll-content {
+        width: max-content;
+        display: flex;
+        animation: scroll 30s linear infinite;
+    }
+    .scroll-content.paused {
+        animation-play-state: paused;
+    }
+    .item {
+        display: inline-block;
+        margin: 7px;
+        padding: 7px 20px;
+        color: #212529;
+        border: 2px solid #212529;
+        border-bottom: 4px solid #212529;
+        border-right: 4px solid #212529;
+        text-align: center;
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    .item:hover {
+        border: 2px solid #212529;
+        margin-right: 9px;
+    }
+    @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(calc(-50% - 7px));
+        }
+    }
+
+
+
+    .main-peojects-section-ttl {
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .main-peojects-body {
+        margin: 0 auto;
+        width: 90%;
+        position: relative;
+        margin-bottom: -50px;
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider {
+        margin-left: 40px;
+        margin-right: 40px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+    }
+    .slider-wrapper {
+        display: flex;
+        width: 100%;
+        transition: transform 0.5s ease;
+    }
+    .slide {
+        min-width: 100%;
+        box-sizing: border-box;
+        padding: 40px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        text-align: center;
+    }
+    button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        border: none;
+        padding: 15px 15px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    button.prev {
+        left: 0px;
+    }
+    button.next {
+        right: 0px;
+    }
+
+
+
+    .footer-contacts {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
+    .footer-contacts-section {
+        padding-top: 70px;
+        background-color: #f6f9fd;
+        width: 100%;
+        height: 100%;
+    }
+    .footer-contacts-section-title {
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .footer-contacts-section-links-parts {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .footer-contacts-section-links-part-1 {
+        position: relative;
+        right: 40px;
+    }
+    .footer-contacts-section-link-1-btn, .footer-contacts-section-link-2-btn, .footer-contacts-section-link-3-btn, .footer-contacts-section-link-4-btn, .footer-contacts-section-link-5-btn, .footer-contacts-section-link-6-btn {
+        color: #212529;
+        text-decoration: none;
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 35px;
+    }
+    .footer-contacts-section-link-1-btn:hover, .footer-contacts-section-link-2-btn:hover, .footer-contacts-section-link-3-btn:hover, .footer-contacts-section-link-4-btn:hover, .footer-contacts-section-link-5-btn:hover, .footer-contacts-section-link-6-btn:hover {
+        text-decoration: underline;
+    }
+    .footer-contacts-section-trademark-button {
+        padding-bottom: 20px;
+    }
+    .footer-contacts-section-trademark-btn {
+        display: block;
+        text-align: center;
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 16px;
+        text-decoration: none;
+        color: #212529;
+        background-color: #f8f9fa;
+        border: 2px solid #212529;
+        border-bottom: 4px solid #212529;
+        border-right: 4px solid #212529;
+        border-radius: 11px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        width: 355.6px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .footer-contacts-section-trademark-btn:hover {
+        background-color: #f8f9fa;
+        border: 2px solid #212529;
+        margin-bottom: 2px;
+    }
+}
+
+
+
+
+
+@media (min-width: 426px) and (max-width: 769px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .header-line {
+        display: flex;
+        justify-content: center;
+        background-color: #f0f5f8;
+    }
+    .header-line-title {
+        margin-top: 5px;
+        width: 95%;
+        text-align: center;
+        border-radius: 50px;
+    }
+    .header-line-title-img {
+        padding-top: 5px;
+        width: 42px;
+        height: auto;
+        padding-bottom: 5px;
+    }
+
+
+
+    .main-about-me {
+        justify-items: center;
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background-color: #f6f9fd;
+    }
+    .main-about-me-section-title-part {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .about-me-img {
+        width: 100%;
+        height: 200px;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .main-about-me-section-title {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: #f8f9fa;
+        border-radius: 0px 0px 15px 15px;
+    }
+    .main-about-me-section-ttl-1 {
+        font-family: "Open Sans";
+        font-weight: 900;
+        font-size: 30px;
+        text-align: left;
+    }
+    .main-about-me-section-ttl-2 {
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 25px;
+        text-align: left;
+    }
+    .main-about-me-section-title-txt {
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 21px;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+
+    .main-skills-section-ttl {
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 70px;
+        margin-bottom: 30px;
+    }
+    .main-skills-section-buttons-body {
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin-bottom: 110px;
+    }
+    .container {
+        width: 100%;
+        overflow: hidden;
+    }
+    .scroll-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+    .scroll-content {
+        width: max-content;
+        display: flex;
+        animation: scroll 30s linear infinite;
+    }
+    .scroll-content.paused {
+        animation-play-state: paused;
+    }
+    .item {
+        display: inline-block;
+        margin: 7px;
+        padding: 7px 20px;
+        color: #212529;
+        border: 2px solid #212529;
+        border-bottom: 4px solid #212529;
+        border-right: 4px solid #212529;
+        text-align: center;
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    .item:hover {
+        border: 2px solid #212529;
+        margin-right: 9px;
+    }
+    @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(calc(-50% - 7px));
+        }
+    }
+
+
+
+    .main-peojects-section-ttl {
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .main-peojects-body {
+        margin: 0 auto;
+        width: 90%;
+        position: relative;
+        margin-bottom: -50px;
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider {
+        margin-left: 40px;
+        margin-right: 40px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+    }
+    .slider-wrapper {
+        display: flex;
+        width: 100%;
+        transition: transform 0.5s ease;
+    }
+    .slide {
+        min-width: 100%;
+        box-sizing: border-box;
+        padding: 40px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        text-align: center;
+    }
+    button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        border: none;
+        padding: 15px 15px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    button.prev {
+        left: 0px;
+    }
+    button.next {
+        right: 0px;
+    }
+
+
+
+    .footer-contacts {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
+    .footer-contacts-section {
+        padding-top: 70px;
+        background-color: #f6f9fd;
+        width: 100%;
+        height: 100%;
+    }
+    .footer-contacts-section-title {
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .footer-contacts-section-links-parts {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .footer-contacts-section-links-part-1 {
+        position: relative;
+        right: 40px;
+    }
+    .footer-contacts-section-link-1-btn, .footer-contacts-section-link-2-btn, .footer-contacts-section-link-3-btn, .footer-contacts-section-link-4-btn, .footer-contacts-section-link-5-btn, .footer-contacts-section-link-6-btn {
+        color: #212529;
+        text-decoration: none;
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 35px;
+    }
+    .footer-contacts-section-link-1-btn:hover, .footer-contacts-section-link-2-btn:hover, .footer-contacts-section-link-3-btn:hover, .footer-contacts-section-link-4-btn:hover, .footer-contacts-section-link-5-btn:hover, .footer-contacts-section-link-6-btn:hover {
+        text-decoration: underline;
+    }
+    .footer-contacts-section-trademark-button {
+        padding-bottom: 20px;
+    }
+    .footer-contacts-section-trademark-btn {
+        display: block;
+        text-align: center;
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 16px;
+        text-decoration: none;
+        color: #212529;
+        background-color: #f8f9fa;
+        border: 2px solid #212529;
+        border-bottom: 4px solid #212529;
+        border-right: 4px solid #212529;
+        border-radius: 11px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        width: 355.6px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .footer-contacts-section-trademark-btn:hover {
+        background-color: #f8f9fa;
+        border: 2px solid #212529;
+        margin-bottom: 2px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 426px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .header-line {
+        display: flex;
+        justify-content: center;
+        background-color: #f0f5f8;
+    }
+    .header-line-title {
+        margin-top: 5px;
+        width: 95%;
+        text-align: center;
+        border-radius: 50px;
+    }
+    .header-line-title-img {
+        padding-top: 5px;
+        width: 38px;
+        height: auto;
+        padding-bottom: 5px;
+    }
+
+
+
+    .main-about-me {
+        display: flex;
+        justify-items: center;
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background-color: #f6f9fd;
+    }
+    .main-about-me-section-title-part {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .about-me-img {
+        height: 100px;
+        width: 100%;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .main-about-me-section-title {
+        margin-top: 10px;
+        padding-bottom: 10px;
+        background-color: #f8f9fa;
+        border-radius: 0px 0px 15px 15px;
+    }
+    .main-about-me-section-ttl-1 {
+        font-family: "Open Sans";
+        font-weight: 900;
+        font-size: 25px;
+        text-align: left;
+    }
+    .main-about-me-section-ttl-2 {
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 20px;
+        text-align: left;
+    }
+    .main-about-me-section-title-txt {
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 16px;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+
+    .main-skills-section-ttl {
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 25px;
+        margin-bottom: 20px;
+    }
+    .main-skills-section-buttons-body {
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin-bottom: 70px;
+    }
+    .container {
+        width: 100%;
+        overflow: hidden;
+    }
+    .scroll-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+    .scroll-content {
+        width: max-content;
+        display: flex;
+        animation: scroll 30s linear infinite;
+    }
+    .scroll-content.paused {
+        animation-play-state: paused;
+    }
+    .item {
+        display: inline-block;
+        margin: 7px;
+        padding: 4px 15px;
+        color: #212529;
+        border: 2px solid #212529;
+        border-bottom: 4px solid #212529;
+        border-right: 4px solid #212529;
+        text-align: center;
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    .item:hover {
+        border: 2px solid #212529;
+        margin-right: 9px;
+    }
+    @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(calc(-50% - 7px));
+        }
+    }
+
+
+
+    .main-peojects-section-ttl {
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .main-peojects-body {
+        position: relative;
+        margin-bottom: -50px;
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider {
+        margin-left: 40px;
+        margin-right: 40px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+    }
+    .slider-wrapper {
+        display: flex;
+        width: 100%;
+        transition: transform 0.5s ease;
+    }
+    .slide {
+        min-width: 100%;
+        box-sizing: border-box;
+        padding: 40px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        text-align: center;
+    }
+    button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        border: none;
+        padding: 15px 15px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    button.prev {
+        left: 0px;
+    }
+    button.next {
+        right: 0px;
+    }
+
+
+
+    .footer-contacts {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-contacts-section {
+        padding-top: 70px;
+        background-color: #f6f9fd;
+        width: 100%;
+        height: 100%;
+    }
+    .footer-contacts-section-title {
+        font-family: "Open Sans";
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .footer-contacts-section-links-parts {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .footer-contacts-section-links-part-1 {
+        position: relative;
+        right: 40px;
+    }
+    .footer-contacts-section-link-1-btn, .footer-contacts-section-link-2-btn, .footer-contacts-section-link-3-btn, .footer-contacts-section-link-4-btn, .footer-contacts-section-link-5-btn, .footer-contacts-section-link-6-btn {
+        color: #212529;
+        text-decoration: none;
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 35px;
+    }
+    .footer-contacts-section-link-1-btn:hover, .footer-contacts-section-link-2-btn:hover, .footer-contacts-section-link-3-btn:hover, .footer-contacts-section-link-4-btn:hover, .footer-contacts-section-link-5-btn:hover, .footer-contacts-section-link-6-btn:hover {
+        text-decoration: underline;
+    }
+    .footer-contacts-section-trademark-button {
+        margin-bottom: 20px;
+    }
+    .footer-contacts-section-trademark-btn {
+        display: block;
+        text-align: center;
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 16px;
+        text-decoration: none;
+        color: #212529;
+        background-color: #f8f9fa;
+        border: 2px solid #212529;
+        border-bottom: 4px solid #212529;
+        border-right: 4px solid #212529;
+        border-radius: 11px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-top: 10px;
+    }
+    .footer-contacts-section-trademark-btn:hover {
+        background-color: #f8f9fa;
+        border: 2px solid #212529;
+        padding-bottom: 2px;
+    }
+}
